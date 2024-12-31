@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbitrage Opportunity</title>
+    <style>
+        /* Base styles */
+        body {
+            font-family: Arial, sans-serif;
+            color: #FFFFFF;
+            background-color: #2F0909; /* Dark Maroon */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #800000; /* Maroon */
+            border-radius: 10px;
+            background-color: #1C1C1C; /* Dark background */
+        }
+        h1 {
+            color: #FF6347; /* Tomato color for headings */
+        }
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #1C1C1C;
+            }
+            .container {
+                background-color: #2F0909;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Arbitrage Opportunity</h1>
+        <p id="message">Loading...</p>
+        {{message}}
+    </div>
+    <script>
+        // Fetch the arbitrage message from the server
+        fetch('/arbitrage')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('message').textContent = data.message;
+            })
+            .catch(error => {
+                document.getElementById('message').textContent = 'Error fetching data.';
+                console.error('Error:', error);
+            });
+    </script>
+</body>
+</html>

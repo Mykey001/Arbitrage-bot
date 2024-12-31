@@ -1,0 +1,97 @@
+2024-12-30 23:22:22,886 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-30 23:22:22,893 - INFO - Added job "scheduled_task" to job store "default"
+2024-12-30 23:22:22,893 - INFO - Scheduler started
+2024-12-31 14:39:48,132 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-31 14:39:48,134 - INFO - Added job "scheduled_task" to job store "default"
+2024-12-31 14:39:48,134 - INFO - Scheduler started
+2024-12-31 14:40:48,143 - INFO - Running job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:40:48 EAT)" (scheduled at 2024-12-31 14:40:48.132259+03:00)
+2024-12-31 14:41:03,162 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-31 14:41:03,163 - INFO - Added job "scheduled_task" to job store "default"
+2024-12-31 14:41:03,163 - INFO - Scheduler started
+2024-12-31 14:41:10,799 - ERROR - Error fetching prices: index out of range
+2024-12-31 14:41:10,841 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 14:41:10,846 - INFO - Prices: ('index out of range', 'index out of range', 'index out of range')
+2024-12-31 14:41:10,852 - INFO - Balances: okx requires "password" credential
+2024-12-31 14:41:10,852 - INFO - Job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:41:48 EAT)" executed successfully
+2024-12-31 14:41:48,145 - INFO - Running job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:42:48 EAT)" (scheduled at 2024-12-31 14:41:48.132259+03:00)
+2024-12-31 14:41:54,723 - ERROR - Error fetching prices: index out of range
+2024-12-31 14:41:54,728 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 14:41:54,729 - INFO - Prices: ('index out of range', 'index out of range', 'index out of range')
+2024-12-31 14:41:54,729 - INFO - Balances: okx requires "password" credential
+2024-12-31 14:41:54,729 - INFO - Job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:42:48 EAT)" executed successfully
+2024-12-31 14:42:03,173 - INFO - Running job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:42:03 EAT)" (scheduled at 2024-12-31 14:42:03.162377+03:00)
+2024-12-31 14:42:31,827 - ERROR - Error fetching prices: index out of range
+2024-12-31 14:42:31,864 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 14:42:31,864 - INFO - Prices: ('index out of range', 'index out of range', 'index out of range')
+2024-12-31 14:42:31,864 - INFO - Balances: okx requires "password" credential
+2024-12-31 14:42:31,864 - INFO - Job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:43:03 EAT)" executed successfully
+2024-12-31 14:42:48,147 - INFO - Running job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:43:48 EAT)" (scheduled at 2024-12-31 14:42:48.132259+03:00)
+2024-12-31 14:42:51,920 - ERROR - Error fetching prices: index out of range
+2024-12-31 14:42:51,931 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 14:42:51,936 - INFO - Prices: ('index out of range', 'index out of range', 'index out of range')
+2024-12-31 14:42:51,946 - INFO - Balances: okx requires "password" credential
+2024-12-31 14:42:51,951 - INFO - Job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:43:48 EAT)" executed successfully
+2024-12-31 14:43:03,177 - INFO - Running job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:44:03 EAT)" (scheduled at 2024-12-31 14:43:03.162377+03:00)
+2024-12-31 14:43:06,449 - ERROR - Error fetching prices: index out of range
+2024-12-31 14:43:06,455 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 14:43:06,460 - INFO - Prices: ('index out of range', 'index out of range', 'index out of range')
+2024-12-31 14:43:06,465 - INFO - Balances: okx requires "password" credential
+2024-12-31 14:43:06,470 - INFO - Job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:44:03 EAT)" executed successfully
+2024-12-31 14:43:48,147 - INFO - Running job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:44:48 EAT)" (scheduled at 2024-12-31 14:43:48.132259+03:00)
+2024-12-31 14:43:51,387 - ERROR - Error fetching prices: index out of range
+2024-12-31 14:43:51,398 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 14:43:51,398 - INFO - Prices: ('index out of range', 'index out of range', 'index out of range')
+2024-12-31 14:43:51,398 - INFO - Balances: okx requires "password" credential
+2024-12-31 14:43:51,398 - INFO - Job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:44:48 EAT)" executed successfully
+2024-12-31 14:44:03,177 - INFO - Running job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:45:03 EAT)" (scheduled at 2024-12-31 14:44:03.162377+03:00)
+2024-12-31 14:44:06,683 - ERROR - Error fetching prices: index out of range
+2024-12-31 14:44:06,688 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 14:44:06,693 - INFO - Prices: ('index out of range', 'index out of range', 'index out of range')
+2024-12-31 14:44:06,698 - INFO - Balances: okx requires "password" credential
+2024-12-31 14:44:06,704 - INFO - Job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:45:03 EAT)" executed successfully
+2024-12-31 14:44:48,147 - INFO - Running job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:45:48 EAT)" (scheduled at 2024-12-31 14:44:48.132259+03:00)
+2024-12-31 14:44:50,958 - ERROR - Error fetching prices: index out of range
+2024-12-31 14:44:50,964 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 14:44:50,969 - INFO - Prices: ('index out of range', 'index out of range', 'index out of range')
+2024-12-31 14:44:50,974 - INFO - Balances: okx requires "password" credential
+2024-12-31 14:44:50,979 - INFO - Job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:45:48 EAT)" executed successfully
+2024-12-31 14:45:03,177 - INFO - Running job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:46:03 EAT)" (scheduled at 2024-12-31 14:45:03.162377+03:00)
+2024-12-31 14:45:06,430 - ERROR - Error fetching prices: index out of range
+2024-12-31 14:45:06,436 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 14:45:06,441 - INFO - Prices: ('index out of range', 'index out of range', 'index out of range')
+2024-12-31 14:45:06,446 - INFO - Balances: okx requires "password" credential
+2024-12-31 14:45:06,447 - INFO - Job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:46:03 EAT)" executed successfully
+2024-12-31 14:45:41,347 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-31 14:45:41,348 - INFO - Added job "scheduled_task" to job store "default"
+2024-12-31 14:45:41,348 - INFO - Scheduler started
+2024-12-31 14:46:41,358 - INFO - Running job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 14:46:41 EAT)" (scheduled at 2024-12-31 14:46:41.347475+03:00)
+2024-12-31 17:12:20,594 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-31 17:12:20,595 - INFO - Added job "scheduled_task" to job store "default"
+2024-12-31 17:12:20,595 - INFO - Scheduler started
+2024-12-31 17:13:20,605 - INFO - Running job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 17:13:20 EAT)" (scheduled at 2024-12-31 17:13:20.593981+03:00)
+2024-12-31 17:13:35,789 - ERROR - Error fetching prices: bybit {"retCode":10010,"retMsg":"Unmatched IP, please check your API key's bound IP addresses.","result":{},"retExtInfo":{},"time":1735654415595}
+2024-12-31 17:13:35,795 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 17:13:35,800 - INFO - Prices: ('bybit {"retCode":10010,"retMsg":"Unmatched IP, please check your API key\'s bound IP addresses.","result":{},"retExtInfo":{},"time":1735654415595}', 'bybit {"retCode":10010,"retMsg":"Unmatched IP, please check your API key\'s bound IP addresses.","result":{},"retExtInfo":{},"time":1735654415595}', 'bybit {"retCode":10010,"retMsg":"Unmatched IP, please check your API key\'s bound IP addresses.","result":{},"retExtInfo":{},"time":1735654415595}')
+2024-12-31 17:13:35,805 - INFO - Balances: okx requires "password" credential
+2024-12-31 17:13:35,806 - INFO - Job "scheduled_task (trigger: interval[0:01:00], next run at: 2024-12-31 17:14:20 EAT)" executed successfully
+2024-12-31 17:13:39,668 - INFO - Scheduler has been shut down
+2024-12-31 17:13:52,887 - ERROR - Error fetching balances: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+2024-12-31 17:14:07,501 - ERROR - Error fetching balances: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+2024-12-31 17:14:55,434 - ERROR - Error fetching balances: okx GET https://www.okx.com/api/v5/public/instruments?instType=FUTURES
+2024-12-31 17:15:41,289 - ERROR - Error fetching balances: okx GET https://www.okx.com/api/v5/public/instruments?instType=SWAP
+2024-12-31 17:16:16,153 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 17:16:30,741 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 17:16:54,236 - ERROR - Error fetching balances: okx GET https://www.okx.com/api/v5/public/instruments?instType=SWAP
+2024-12-31 17:18:40,995 - ERROR - Error fetching balances: okx GET https://www.okx.com/api/v5/public/instruments?instType=OPTION&uly=BTC-USD
+2024-12-31 17:19:57,241 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 17:20:41,146 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 17:21:22,607 - ERROR - Error fetching balances: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+2024-12-31 17:21:58,810 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 17:22:16,382 - ERROR - Error fetching balances: okx requires "password" credential
+2024-12-31 17:22:56,871 - ERROR - Error fetching balances: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+2024-12-31 17:23:48,369 - ERROR - Error fetching balances: bybit GET https://api.bybit.com/v5/asset/coin/query-info?
+2024-12-31 17:24:15,680 - ERROR - Error fetching balances: bybit {"retCode":10010,"retMsg":"Unmatched IP, please check your API key's bound IP addresses.","result":{},"retExtInfo":{},"time":1735655055546}
+2024-12-31 17:24:30,628 - ERROR - Error fetching balances: bybit {"retCode":10010,"retMsg":"Unmatched IP, please check your API key's bound IP addresses.","result":{},"retExtInfo":{},"time":1735655070497}
+2024-12-31 17:24:58,583 - ERROR - Error fetching balances: bybit {"retCode":10010,"retMsg":"Unmatched IP, please check your API key's bound IP addresses.","result":{},"retExtInfo":{},"time":1735655097995}
+2024-12-31 17:25:42,820 - ERROR - Error fetching balances: bybit {"retCode":10010,"retMsg":"Unmatched IP, please check your API key's bound IP addresses.","result":{},"retExtInfo":{},"time":1735655142706}
+2024-12-31 17:26:28,110 - ERROR - Error fetching balances: bybit {"retCode":10010,"retMsg":"Unmatched IP, please check your API key's bound IP addresses.","result":{},"retExtInfo":{},"time":1735655187930}
